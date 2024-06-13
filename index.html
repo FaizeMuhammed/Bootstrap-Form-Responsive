@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap.Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+    <form>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="cards p-3">
+                    <div class="card col p-3">
+                        <header>
+                            <h2 class="fs-4 p-3">Basic Details</h2>
+                        </header>
+                        <div class="card-body">
+                            <div class="upload_img  p-3 text-center">
+                                <span class="material-symbols-outlined">
+                                    upload
+                                </span>
+                                <h6>Upload Image</h6>
+                                <small>PNG, JPG files are allowed</small>
+                            </div>
+                            <div class="user_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Salutation<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <select class="form-select">
+                                        <option selected>select</option>
+                                        <option>Mr</option>
+                                        <option>Ms</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">First Name<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="john">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Last Name<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="doe">
+                                </div>
+                            </div>
+                            <div class="mail_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Email Adress<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="email" class="form-control" placeholder="mail@simmple.com">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Mobile Number<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="number" class="form-control" placeholder="enter mobile number">
+                                </div>
+                            </div>
+                            <div class="birth_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Date Of Birth<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="date" class="form-control" placeholder="select date of birth">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Gender<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <div class="gender">
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" name="checkradio"
+                                                id="checkradio">
+                                            <label class="form-check-label" for="checkradio">Male</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" name="checkradio"
+                                                id="checkradio_two">
+                                            <label class="form-check-label" for="checkradio_two">Female</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="adress row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Address<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="enter address">
+                                </div>
+
+                            </div>
+                            <div class="country_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Country<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <select class="form-select">
+                                        <option selected>select</option>
+                                        <option>India</option>
+                                        <option>USA</option>
+                                        <option>England</option>
+                                        <option>Japan</option>
+                                        <option>Russia</option>
+
+                                    </select>
+
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">State<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <select class="form-select">
+                                        <option selected>select</option>
+                                        <option>Tamil Nadu</option>
+                                        <option>Kerala</option>
+                                        <option>Karnataka</option>
+                                        <option>Delhi</option>
+                                        <option>Rajasthan</option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+                            <div class="city_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">City<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="enter your city">
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Pin/Zip<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <input type="number" class="form-control" placeholder="enter Pin/Zip">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col p-3">
+                        <header>
+                            <h2 class="fs-4 p-3">Advanced Details</h2>
+                        </header>
+                        <div class="card-body">
+                            <div class="alert alert-warning" role="alert">
+                                <h6 class="m-0">Sample warning messages - alert</h6>
+                                <p class="fs-9 m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed
+                                    fermentum felis. Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales
+                                    feugiat. Donec suscipit felis vitae orci porttitor congue.</p>
+                            </div>
+                            <div class="height_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Height<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <input type="range" class="form-range">
+                                        </div>
+                                        <div class="col m-0">
+                                            <input class="form-control text-center fw-bold" value="160cm">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Weight<span
+                                            class="star_icon text-danger">*</span></label>
+                                    <div class="row p-3">
+                                        <div class="col">
+                                            <input type="range" class="form-range">
+                                        </div>
+                                        <div class="col m-0">
+                                            <input class="form-control text-center fw-bold" value="68kg">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="colours row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Choose colour<span
+                                        class="star_icon text-danger">*</span></label>
+
+                                    <input type="color" class="form-control  px-2 py-1 colortab" value="#CB5D9F" ;
+                                    >
+                                </div>
+                                <div class="col">
+                                    <label class="form-label fw-bold">Choose Templates<span
+                                        class="star_icon text-danger">*</span></label>
+                                    <div class="templates pt-2">
+                                        <div class="check-template">
+                                            <input type="checkbox" class="form-check-input" id="template1">
+                                            <label class="form-label" for="template1">Template1</label>
+                                        </div>
+                                        <div class="check-template">
+                                            <input type="checkbox" class="form-check-input" id="template2">
+                                            <label class="form-label" for="template2">Template2</label>
+                                        </div>
+                                        <div class="check-template">
+                                            <input type="checkbox" class="form-check-input" id="template3">
+                                            <label class="form-label" for="template3">Template3</label>
+                                        </div>
+                                    </div> 
+                                    
+
+                                </div>
+                            </div>
+                            <div class="qualification_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">Qualification<span
+                                        class="star_icon text-danger">*</span></label>
+
+                                    <input type="text" class="form-control" placeholder="enter your qualification" >
+                                </div>
+                            </div>
+                            <div class="about_sec row p-3">
+                                <div class="col">
+                                    <label class="form-label fw-bold">About Your Self<span
+                                        class="star_icon text-danger">*</span></label>
+                                    <input type="text" class="form-control inputcontent pb-5" placeholder="enter here...">    
+                                    
+
+                                    
+                                </div>
+                            </div>
+                            <div class="aggriment_sec row p-3">
+                                <div class="col">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-label">I Accept the terms and Conditions</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <footer class="footer mt-2 p-3">
+                    <div class="card">
+                        <div class="card-body text-end">
+                            <div class="btn">
+                                <button class="cancel-btn p-3 fw-bold">Cancel</button>
+                                <button class="save-btn p-3 fw-bold">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

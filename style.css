@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E9EDF2;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+.upload_img {
+    border: 2px dashed;
+    border-color:  #B2BAD0;
+    border-radius: 12px;
+}
+
+.upload_img span {
+    color: #4318FF;
+
+}
+
+.upload_img h6 {
+    color: #4318FF;
+
+}
+
+.upload_img small {
+    color: #8F9BBA;
+
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border-radius: 31px;
+    border: none;
+}
+
+
+footer{
+    width: 100%;
+}
+
+
+.gender {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.templates{
+    display: flex;
+    gap: 15px;
+}
+.cancel-btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #E9EDF2 ;    
+}
+.save-btn{
+    border: none;
+    background-color:#4318FF ;
+    border-radius: 20px;
+    color: #fff;
+}
+.colortab{
+    height: 45px;
+    width: 100%;
+}
+
+.inputcontent{
+    height: 120px;
+    width: 100%px;
+}
+.form-control{
+    border-radius: 12px;
+}
+.form-control:hover{
+    box-shadow: none;
+    border-color: #4318FF;
+}
+.alert{
+    border: 12px;
+}
+.form-check-input:checked
