@@ -87,4 +87,24 @@ footer{
 .alert{
     border: 12px;
 }
-.form-check-input:checked
+.form-check-input[type="radio"]:checked{
+
+    border: 1px solid  #4318FF;
+    background-color:  #4318FF;
+
+}
+input[type="range"]::-webkit-slider-thumb{
+    background-color: #4318FF;
+}
+input[type="checkbox"]:checked{
+    background-color: #4318FF;
+    border: #4318FF;
+    box-shadow: none;
+
+}
+select{
+    box-shadow: none !important;
+}
+input{
+    box-shadow: none !important;
+}
