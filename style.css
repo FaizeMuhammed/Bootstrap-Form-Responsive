@@ -64,7 +64,7 @@ footer{
 }
 .templates{
     display: flex;
-    gap: 15px;
+    gap: 7px;
 }
 .cancel-btn{
     border: none;
@@ -81,16 +81,22 @@ footer{
     height: 45px;
     width: 100%;
 }
-.height_sec .row {
-    gap: 110px;
-   
-}
+
 .height_sec  .form-control{
     border-radius: 15px;
+    width: 65px;
+    font-size: 15px;
+    font-weight: 600;
     
 }
+.range_sec{
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    width: 170px;
+}
 .form-range{
-    width: 250%;
+    width: 210px;
 }
 .inputcontent{
     height: 120px;
@@ -120,9 +126,8 @@ footer{
     box-shadow: none;
     border-color: var(--primary-color);
 }
-.alert{
-    border: 12px;
-}
+
+
 .form-check-input[type="radio"]:checked{
 
     border: 1px solid  var(--primary-color);
