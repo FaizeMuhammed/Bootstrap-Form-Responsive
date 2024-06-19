@@ -13,6 +13,21 @@
     }
 }
 @media(max-width:768px){
+    .range_sec{
+        padding-top: 1rem !important;
+
+    }
+    .height_sec  .form-control{
+        border-radius: 15px;
+        width: 50%;
+        height: 124%;
+    }
+    .form-range{
+        width: 100%;
+    }
+    .height_sec .row {
+        gap: 30px;
+    }
     .user_sec{
         flex-direction: column;
         padding-bottom: 0rem !important;
@@ -64,6 +79,21 @@
     
 }
 @media(max-width:520px){
+    .height_sec  .form-control{
+        border-radius: 15px;
+        width: 70%;
+        height: 124%;
+    }
+    .form-range{
+        width: 130%;
+    }
+    .height_sec .row {
+        gap: 30px;
+    }
+    .main_card{
+        padding: 0.1rem !important;
+    }
+    
     .cards{
         padding-left: 0rem !important;
         padding-right: 0rem !important;

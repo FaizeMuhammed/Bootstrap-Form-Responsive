@@ -19,6 +19,8 @@ body {
     border: 2px dashed;
     border-color:  #B2BAD0;
     border-radius: 12px;
+    background: #FAFCFE;
+
 }
 
 .upload_img span {
@@ -52,10 +54,10 @@ footer{
 
 
 .gender {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .templates{
     display: flex;
@@ -76,14 +78,38 @@ footer{
     height: 45px;
     width: 100%;
 }
-
+.height_sec .row {
+    gap: 110px;
+    justify-content: space-between;
+}
+.height_sec  .form-control{
+    border-radius: 15px;
+    width: 90%;
+    height: 124%;
+}
+.form-range{
+    width: 250%;
+}
 .inputcontent{
     height: 120px;
     width: 100%px;
 }
 .form-control{
     border-radius: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    
+
 }
+.form-select{
+    border-radius: 12px;
+
+}
+.fw-bold{
+    font-weight: 500 !important;
+    font-size: 14px;
+}
+
 .form-control:hover{
     box-shadow: none;
     border-color: var(--primary-color);
