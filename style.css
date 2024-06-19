@@ -51,7 +51,10 @@ body {
 footer{
     width: 100%;
 }
-
+.height_sec .col .row{
+    justify-content: center;
+    align-items: center;
+}
 
 .gender {
     justify-content: flex-start;
@@ -80,12 +83,11 @@ footer{
 }
 .height_sec .row {
     gap: 110px;
-    justify-content: space-between;
+   
 }
 .height_sec  .form-control{
     border-radius: 15px;
-    width: 90%;
-    height: 124%;
+    
 }
 .form-range{
     width: 250%;
@@ -108,6 +110,10 @@ footer{
 .fw-bold{
     font-weight: 500 !important;
     font-size: 14px;
+}
+.form-select:hover{
+    box-shadow: none;
+    border-color: var(--primary-color);
 }
 
 .form-control:hover{
